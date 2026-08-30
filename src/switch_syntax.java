@@ -23,9 +23,11 @@ public class switch_syntax {
              case 6:
                  System.out.print("saturday");
                  break;
-             default:
+             case 7:
                  System.out.print("Sunday");
                  break;
+             default:
+                 System.out.print("invalid day");
 
          }
      }
